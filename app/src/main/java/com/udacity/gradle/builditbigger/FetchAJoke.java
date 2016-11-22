@@ -56,6 +56,7 @@ public class FetchAJoke extends AsyncTask<Context, Void, String> {
     @Override
     protected void onPostExecute(String result) {
         Intent jokerIntent = new Intent(context, ShowMeAJoke.class);
+        jokerIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         jokerIntent.putExtra(ShowMeAJoke.JOKER_EXTRA, JokerJava.tellMeAJoke());
 
         context.startActivity(jokerIntent);
