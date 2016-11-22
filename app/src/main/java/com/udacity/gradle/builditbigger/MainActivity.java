@@ -44,10 +44,12 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void tellJoke(View view) {
-        Intent jokerIntent = new Intent(this, ShowMeAJoke.class);
+        /*Intent jokerIntent = new Intent(this, ShowMeAJoke.class);
         jokerIntent.putExtra(ShowMeAJoke.JOKER_EXTRA, JokerJava.tellMeAJoke());
 
-        startActivity(jokerIntent);
+        startActivity(jokerIntent);*/
+
+        new FetchAJoke().execute(this);
     }
 
 }

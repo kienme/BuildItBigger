@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FinalProject.iml" filepath="$PROJECT_DIR$/FinalProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JokerGoogleCloud/JokerGoogleCloud.iml" filepath="$PROJECT_DIR$/JokerGoogleCloud/JokerGoogleCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokerandroid/jokerandroid.iml" filepath="$PROJECT_DIR$/jokerandroid/jokerandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokerjava/jokerjava.iml" filepath="$PROJECT_DIR$/jokerjava/jokerjava.iml" />
