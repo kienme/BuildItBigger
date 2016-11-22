@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokerAndroid</string>
+    <string name="default_joke">There is no future in time travel.</string>
+</resources>
